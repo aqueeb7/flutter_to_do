@@ -15,7 +15,10 @@ class ToDOItem extends StatelessWidget {
         leading: const Icon(Icons.check_box, color: tdBlue),
         title: const Text(
           'Check Mail',
-          style: TextStyle(fontSize: 16),
+          style: TextStyle(
+              fontSize: 16,
+              color: tdBlack,
+              decoration: TextDecoration.lineThrough),
         ),
       ),
     );
